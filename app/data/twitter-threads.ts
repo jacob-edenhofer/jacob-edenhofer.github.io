@@ -19,8 +19,14 @@ export const threadGroups: ThreadGroup[] = [
     "title": "Climate politics",
     "items": [
       {
+        "id": "2063277710617514358",
+        "title": "Degrowth and the erosion of support for climate policy",
+        "date": "2026-06-06",
+        "language": "English"
+      },
+      {
         "id": "2012992239408984257",
-        "title": "Voters and organised interests across stages of decarbonisation",
+        "title": "The relative importance of voters and interest groups across different stages of decarbonisation",
         "date": "2026-01-18",
         "language": "English"
       },
@@ -50,9 +56,21 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1876215518384079306",
-        "title": "Why the energy transition remains vulnerable to Trump",
+        "title": "Why the (US) energy transition remains vulnerable to a second Trump term",
         "date": "2025-01-06",
         "language": "German"
+      },
+      {
+        "id": "1823100973541150876",
+        "title": "Dewatripont and Roland and the sequencing of climate policy",
+        "date": "2024-08-12",
+        "language": "English"
+      },
+      {
+        "id": "1805285201364328554",
+        "title": "Institutions and the strategic challenges of climate policy",
+        "date": "2024-06-24",
+        "language": "English"
       },
       {
         "id": "1770034720111251541",
@@ -68,7 +86,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1752478438223495563",
-        "title": "The political arguments for green subsidies",
+        "title": "Policy feedback and the political rationale for green subsidies",
         "date": "2024-01-30",
         "language": "English"
       },
@@ -80,19 +98,19 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1703329859324330241",
-        "title": "Public attention and Germany’s national emissions trading system",
+        "title": "Did climate protests lead to Germany’s climate law?",
         "date": "2023-09-17",
         "language": "English"
       },
       {
         "id": "1679788474667356160",
-        "title": "Regulatory capture and the choice of climate policies",
+        "title": "Stiglerian setting and climate policy",
         "date": "2023-07-14",
         "language": "German"
       },
       {
         "id": "1679460462956511232",
-        "title": "How climate policy can overcome collective action problems",
+        "title": "Olsonian settings and the political (in)feasibility of climate policy",
         "date": "2023-07-13",
         "language": "German"
       },
@@ -101,6 +119,12 @@ export const threadGroups: ThreadGroup[] = [
         "title": "Carbon pricing and its political economy",
         "date": "2023-03-15",
         "language": "German"
+      },
+      {
+        "id": "1601210794259030016",
+        "title": "Ostrom’s principles and the provision of global public goods",
+        "date": "2022-12-09",
+        "language": "English"
       }
     ]
   },
@@ -110,7 +134,7 @@ export const threadGroups: ThreadGroup[] = [
     "items": [
       {
         "id": "1993758805000147137",
-        "title": "The difficulties of countering right-wing populism",
+        "title": "Is fighting right-wing populism even possible?",
         "date": "2025-11-26",
         "language": "English"
       },
@@ -118,6 +142,12 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1982804858206859283",
         "title": "Credibility and the limits of accommodation on immigration",
         "date": "2025-10-27",
+        "language": "English"
+      },
+      {
+        "id": "1982077326390120865",
+        "title": "The political effects of right-wing violence in Germany",
+        "date": "2025-10-25",
         "language": "English"
       },
       {
@@ -134,7 +164,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1912818177555231055",
-        "title": "The rationale and fragility of the cordon sanitaire",
+        "title": "The pros and cons of the cordon sanitaire",
         "date": "2025-04-17",
         "language": "English"
       },
@@ -148,6 +178,24 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1863743988974416222",
         "title": "The accommodation debate and party competition",
         "date": "2024-12-03",
+        "language": "English"
+      },
+      {
+        "id": "1820385805308670391",
+        "title": "The economics and politics of immigration in the UK",
+        "date": "2024-08-05",
+        "language": "English"
+      },
+      {
+        "id": "1819655256583635349",
+        "title": "Accommodation, rhetoric, and far-right violence",
+        "date": "2024-08-03",
+        "language": "English"
+      },
+      {
+        "id": "1816157318255644977",
+        "title": "High-street vacancies, local decline, and populist support",
+        "date": "2024-07-24",
         "language": "English"
       },
       {
@@ -175,9 +223,9 @@ export const threadGroups: ThreadGroup[] = [
         "language": "English"
       },
       {
-        "id": "1974069665338098008",
-        "title": "German reunification and the persistence of political differences",
-        "date": "2025-10-03",
+        "id": "1983994040342507951",
+        "title": "Dahl on polyarchy and democratisation",
+        "date": "2025-10-30",
         "language": "English"
       },
       {
@@ -193,45 +241,27 @@ export const threadGroups: ThreadGroup[] = [
         "language": "German"
       },
       {
-        "id": "1845826285060174328",
-        "title": "Acemoglu and Robinson on inequality and democratisation",
-        "date": "2024-10-14",
-        "language": "English"
-      },
-      {
         "id": "1845435161850032510",
         "title": "The political consequences of technocratic economic policy",
         "date": "2024-10-13",
         "language": "English"
       },
       {
-        "id": "1841780267230384498",
-        "title": "German reunification and its lasting economic and political effects",
-        "date": "2024-10-03",
-        "language": "German"
-      },
-      {
-        "id": "1821271761297789118",
-        "title": "Autocratic learning from Orbán to Fico",
-        "date": "2024-08-07",
+        "id": "1815847355234525533",
+        "title": "A mostly sceptical take on citizens’ assemblies",
+        "date": "2024-07-23",
         "language": "English"
       },
       {
-        "id": "1815847355234525533",
-        "title": "The limits of citizens’ assemblies",
-        "date": "2024-07-23",
+        "id": "1800848319469813866",
+        "title": "Why voters may fail to sanction democratic backsliding",
+        "date": "2024-06-12",
         "language": "English"
       },
       {
         "id": "1759718258234605742",
         "title": "Assessing the arguments for citizens’ assemblies",
         "date": "2024-02-19",
-        "language": "English"
-      },
-      {
-        "id": "1758084907597693402",
-        "title": "The legacies of East Germany and the limits of simple comparisons",
-        "date": "2024-02-15",
         "language": "English"
       },
       {
@@ -244,6 +274,24 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1716052321820455017",
         "title": "Voter ignorance and the rationality of electorates",
         "date": "2023-10-22",
+        "language": "English"
+      }
+    ]
+  },
+  {
+    "id": "autocracy",
+    "title": "Autocracy and competitive authoritarianism",
+    "items": [
+      {
+        "id": "1821271761297789118",
+        "title": "Autocratic learning from Orbán to Fico",
+        "date": "2024-08-07",
+        "language": "English"
+      },
+      {
+        "id": "1757539820140696055",
+        "title": "An overview of the political economy of autocracy",
+        "date": "2024-02-13",
         "language": "English"
       },
       {
@@ -278,7 +326,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1967573005074362380",
-        "title": "Higher pay and the recruitment of politicians",
+        "title": "Should politicians be paid higher wages?",
         "date": "2025-09-15",
         "language": "English"
       },
@@ -311,6 +359,30 @@ export const threadGroups: ThreadGroup[] = [
         "title": "Legislative overload and administrative capacity",
         "date": "2024-08-16",
         "language": "German"
+      },
+      {
+        "id": "1817808203201028576",
+        "title": "The knowledge economy and single-member district electoral systems",
+        "date": "2024-07-29",
+        "language": "English"
+      },
+      {
+        "id": "1782321494615294172",
+        "title": "The uses and limits of the Varieties of Capitalism framework",
+        "date": "2024-04-22",
+        "language": "English"
+      },
+      {
+        "id": "1774787712496595255",
+        "title": "Why comparative politics matters for single-country analysis",
+        "date": "2024-04-01",
+        "language": "English"
+      },
+      {
+        "id": "1770204231938568628",
+        "title": "The war in Ukraine and strains within Germany’s traffic-light coalition",
+        "date": "2024-03-19",
+        "language": "English"
       },
       {
         "id": "1736338887486640624",
@@ -347,12 +419,6 @@ export const threadGroups: ThreadGroup[] = [
         "title": "Cox and McCubbins on institutions and policy outcomes",
         "date": "2022-12-15",
         "language": "English"
-      },
-      {
-        "id": "1601210794259030016",
-        "title": "Ostrom’s principles and the provision of global public goods",
-        "date": "2022-12-09",
-        "language": "English"
       }
     ]
   },
@@ -373,6 +439,12 @@ export const threadGroups: ThreadGroup[] = [
         "language": "English"
       },
       {
+        "id": "1974435991302947259",
+        "title": "Besley et al. on growth experience and zero-sum attitudes",
+        "date": "2025-10-04",
+        "language": "English"
+      },
+      {
         "id": "1969363353869951018",
         "title": "Wealth taxes and the political consequences of inequality",
         "date": "2025-09-20",
@@ -388,6 +460,12 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1847977851791810568",
         "title": "Ansell and Gingrich on education, insecurity, and political attitudes",
         "date": "2024-10-20",
+        "language": "English"
+      },
+      {
+        "id": "1845826285060174328",
+        "title": "Acemoglu and Robinson on inequality and democratisation",
+        "date": "2024-10-14",
         "language": "English"
       },
       {
@@ -451,9 +529,63 @@ export const threadGroups: ThreadGroup[] = [
         "language": "English"
       },
       {
+        "id": "2069464875634405497",
+        "title": "Brexit at ten and the politics of regional decline",
+        "date": "2026-06-23",
+        "language": "English"
+      },
+      {
+        "id": "1974069665338098008",
+        "title": "German reunification and the persistence of political differences",
+        "date": "2025-10-03",
+        "language": "English"
+      },
+      {
+        "id": "1868658513440022580",
+        "title": "The best political science books I read in 2024",
+        "date": "2024-12-16",
+        "language": "English"
+      },
+      {
+        "id": "1855018725935923425",
+        "title": "Trump’s trade war and US–China interdependence",
+        "date": "2024-11-08",
+        "language": "English"
+      },
+      {
+        "id": "1841780267230384498",
+        "title": "German reunification and its lasting economic and political effects",
+        "date": "2024-10-03",
+        "language": "German"
+      },
+      {
         "id": "1840790536929632517",
         "title": "Models of social change",
         "date": "2024-09-30",
+        "language": "English"
+      },
+      {
+        "id": "1775546545842065541",
+        "title": "Moral hazard and the commitment problem in bank bailouts",
+        "date": "2024-04-03",
+        "language": "German"
+      },
+      {
+        "id": "1758084907597693402",
+        "title": "The legacies of East Germany and the limits of simple comparisons",
+        "date": "2024-02-15",
+        "language": "English"
+      },
+      {
+        "id": "1751258861405630521",
+        "title": "Reading list on the Shoah and the Nazi dictatorship, part II",
+        "date": "2024-01-27",
+        "language": "English"
+      },
+      {
+        "id": "1618941225968758784",
+        "title": "Reading list on the Shoah and the Nazi dictatorship",
+        "date": "2023-01-27",
         "language": "English"
       }
     ]
