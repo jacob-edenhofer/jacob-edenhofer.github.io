@@ -56,7 +56,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1876215518384079306",
-        "title": "Why the (US) energy transition remains vulnerable to a second Trump term",
+        "title": "Why a second Trump term may well derail the (US) energy transition",
         "date": "2025-01-06",
         "language": "German"
       },
@@ -68,7 +68,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1805285201364328554",
-        "title": "Institutions and the strategic challenges of climate policy",
+        "title": "Institutions and the strategic challenges of climate policymaking",
         "date": "2024-06-24",
         "language": "English"
       },
@@ -86,7 +86,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1752478438223495563",
-        "title": "Policy feedback and the political rationale for green subsidies",
+        "title": "Policy feedback and the politics of green subsidies",
         "date": "2024-01-30",
         "language": "English"
       },
@@ -266,7 +266,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1748083543480164666",
-        "title": "Democratic hooliganism and faith in institutional resilience",
+        "title": "Democratic hooliganism and excessive optimism in the resilience of democratic institutions",
         "date": "2024-01-18",
         "language": "English"
       },
@@ -284,7 +284,7 @@ export const threadGroups: ThreadGroup[] = [
     "items": [
       {
         "id": "1821271761297789118",
-        "title": "Autocratic learning from Orbán to Fico",
+        "title": "Fico’s authoritarianism and the power of autocratic imitation",
         "date": "2024-08-07",
         "language": "English"
       },
@@ -320,7 +320,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1985285872296620063",
-        "title": "Political mistrust and the prospects for long-term reform",
+        "title": "Summarising ‘Bad Democracy Traps’",
         "date": "2025-11-03",
         "language": "English"
       },
@@ -332,7 +332,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1932369783686615244",
-        "title": "Voter rationality and explanations for Trump",
+        "title": "Are voters (as) dumb (as Bryan Caplan argues)?",
         "date": "2025-06-10",
         "language": "English"
       },
@@ -584,7 +584,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1618941225968758784",
-        "title": "Reading list on the Shoah and the Nazi dictatorship",
+        "title": "Reading list on the Shoah and the Nazi dictatorship, part I",
         "date": "2023-01-27",
         "language": "English"
       }
