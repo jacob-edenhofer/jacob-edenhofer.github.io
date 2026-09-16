@@ -1,4 +1,11 @@
-import { threadGroups } from "../data/twitter-threads";
+import { threadGroups, type ThreadKind } from "../data/twitter-threads";
+
+const kindLabels: Record<ThreadKind, string> = {
+  "paper-summary": "Paper summary",
+  "book-summary": "Book summary",
+  "primer": "Literature primer",
+  "reading-list": "Reading list",
+};
 
 const dateFormat = new Intl.DateTimeFormat("en-GB", {
   day: "numeric",
@@ -12,7 +19,7 @@ export function TwitterThreads() {
     <section className="writing-section twitter-threads" id="twitter-threads">
       <header className="writing-section-heading">
         <h2>Twitter threads</h2>
-        <p>I started these threads when I was revising for my “Comparative Government” exams as a way to get feedback on my revision notes. They include summaries of the literature and tentative interpretations of its implications for current debates. The threads are grouped by theme, with the most recent first.</p>
+        <p>I started these threads when I was revising for my “Comparative Government” exams as a way to get feedback on my revision notes. They include summaries of individual papers and books, primers on particular literatures, reading lists, and tentative interpretations of the literature’s implications for current debates; the labels beneath each title indicate which is which. The threads are grouped by theme, with the most recent first.</p>
       </header>
       <div className="thread-groups">
         {threadGroups.map((group) => (
@@ -33,7 +40,9 @@ export function TwitterThreads() {
                   <a href={`https://threadreaderapp.com/thread/${thread.id}.html`}>{thread.title}</a>
                   <p className="thread-meta">
                     <time dateTime={thread.date}>{dateFormat.format(new Date(`${thread.date}T12:00:00Z`))}</time>
-                    <span> · {thread.language} · </span>
+                    <span> · {thread.language}</span>
+                    {thread.kind ? <span> · <span className="thread-kind">{kindLabels[thread.kind]}</span></span> : null}
+                    <span> · </span>
                     <a href={`https://x.com/edenhofer_jacob/status/${thread.id}`} aria-label={`${thread.title} on Twitter/X`}>Twitter/X</a>
                   </p>
                 </li>

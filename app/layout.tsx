@@ -14,7 +14,11 @@ export const metadata: Metadata = {
   title: "Jacob Edenhofer",
   description: "DPhil candidate in Politics at the University of Oxford, with research interests in comparative political economy and climate politics.",
   robots: { index: false, follow: false },
-  icons: { icon: sitePath("/favicon.svg"), shortcut: sitePath("/favicon.svg") },
+  icons: {
+    icon: sitePath("/favicon.svg?v=20260916"),
+    shortcut: sitePath("/favicon.svg?v=20260916"),
+    apple: sitePath("/apple-touch-icon.png?v=20260916"),
+  },
   openGraph: {
     title: "Jacob Edenhofer",
     description: "Comparative political economy, climate politics, and populism · University of Oxford",

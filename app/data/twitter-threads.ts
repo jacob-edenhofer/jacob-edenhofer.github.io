@@ -3,7 +3,12 @@ export type TwitterThread = {
   title: string;
   date: string;
   language: "English" | "German";
+  kind?: ThreadKind;
 };
+
+// Optional label describing what a thread does: a summary of one paper or
+// book, a primer on a literature, or a reading list.
+export type ThreadKind = "paper-summary" | "book-summary" | "primer" | "reading-list";
 
 export type ThreadGroup = {
   id: string;
@@ -26,15 +31,16 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "2012992239408984257",
-        "title": "The relative importance of voters and interest groups across different stages of decarbonisation",
+        "title": "Voters versus interest groups across the stages of decarbonisation",
         "date": "2026-01-18",
         "language": "English"
       },
       {
         "id": "2005674033258606687",
-        "title": "Favourite papers on climate policy and politics in 2025",
+        "title": "My favourite climate papers of 2025",
         "date": "2025-12-29",
-        "language": "English"
+        "language": "English",
+        "kind": "reading-list"
       },
       {
         "id": "2000944001806168354",
@@ -44,7 +50,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1975650537547972914",
-        "title": "Badenoch’s proposed repeal of the Climate Change Act",
+        "title": "Badenoch’s proposed repeal of the UK Climate Change Act",
         "date": "2025-10-07",
         "language": "English"
       },
@@ -64,7 +70,8 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1823100973541150876",
         "title": "Dewatripont and Roland and the sequencing of climate policy",
         "date": "2024-08-12",
-        "language": "English"
+        "language": "English",
+        "kind": "paper-summary"
       },
       {
         "id": "1805285201364328554",
@@ -76,7 +83,8 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1770034720111251541",
         "title": "Elite cues and public opinion on climate policy",
         "date": "2024-03-19",
-        "language": "English"
+        "language": "English",
+        "kind": "primer"
       },
       {
         "id": "1760635907995017502",
@@ -104,7 +112,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1679788474667356160",
-        "title": "Stiglerian setting and climate policy",
+        "title": "Stiglerian settings and climate policy",
         "date": "2023-07-14",
         "language": "German"
       },
@@ -118,11 +126,12 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1635997715837452291",
         "title": "Carbon pricing and its political economy",
         "date": "2023-03-15",
-        "language": "German"
+        "language": "German",
+        "kind": "reading-list"
       },
       {
         "id": "1601210794259030016",
-        "title": "Ostrom’s principles and the provision of global public goods",
+        "title": "Can Ostrom’s principles scale? Lessons from the eradication of smallpox",
         "date": "2022-12-09",
         "language": "English"
       }
@@ -148,7 +157,8 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1982077326390120865",
         "title": "The political effects of right-wing violence in Germany",
         "date": "2025-10-25",
-        "language": "English"
+        "language": "English",
+        "kind": "primer"
       },
       {
         "id": "1957046944724844966",
@@ -170,7 +180,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1875127004326158567",
-        "title": "The political logic of populist falsehoods",
+        "title": "The political logic of populist bullshit: Reflection on Zürn’s FAZ article",
         "date": "2025-01-03",
         "language": "German"
       },
@@ -178,17 +188,19 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1863743988974416222",
         "title": "The accommodation debate and party competition",
         "date": "2024-12-03",
-        "language": "English"
+        "language": "English",
+        "kind": "primer"
       },
       {
         "id": "1820385805308670391",
         "title": "The economics and politics of immigration in the UK",
         "date": "2024-08-05",
-        "language": "English"
+        "language": "English",
+        "kind": "reading-list"
       },
       {
         "id": "1819655256583635349",
-        "title": "Accommodation, rhetoric, and far-right violence",
+        "title": "How accommodating the far right can incite violence",
         "date": "2024-08-03",
         "language": "English"
       },
@@ -214,7 +226,8 @@ export const threadGroups: ThreadGroup[] = [
         "id": "2007131571204001963",
         "title": "Voters’ responses to democratic backsliding",
         "date": "2026-01-02",
-        "language": "English"
+        "language": "English",
+        "kind": "primer"
       },
       {
         "id": "1990822736554307921",
@@ -226,7 +239,8 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1983994040342507951",
         "title": "Dahl on polyarchy and democratisation",
         "date": "2025-10-30",
-        "language": "English"
+        "language": "English",
+        "kind": "book-summary"
       },
       {
         "id": "1886335627974651908",
@@ -248,7 +262,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1815847355234525533",
-        "title": "A mostly sceptical take on citizens’ assemblies",
+        "title": "A mostly sceptical take on citizens’ assemblies, part II",
         "date": "2024-07-23",
         "language": "English"
       },
@@ -256,11 +270,12 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1800848319469813866",
         "title": "Why voters may fail to sanction democratic backsliding",
         "date": "2024-06-12",
-        "language": "English"
+        "language": "English",
+        "kind": "primer"
       },
       {
         "id": "1759718258234605742",
-        "title": "Assessing the arguments for citizens’ assemblies",
+        "title": "A mostly sceptical take on citizens’ assemblies, part I",
         "date": "2024-02-19",
         "language": "English"
       },
@@ -272,7 +287,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1716052321820455017",
-        "title": "Voter ignorance and the rationality of electorates",
+        "title": "Ignorant voters, rational electorates?",
         "date": "2023-10-22",
         "language": "English"
       }
@@ -292,7 +307,14 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1757539820140696055",
         "title": "An overview of the political economy of autocracy",
         "date": "2024-02-13",
-        "language": "English"
+        "language": "English",
+        "kind": "primer"
+      },
+      {
+        "id": "1667987147603804162",
+        "title": "Why personalised autocracies struggle with contract-intensive growth",
+        "date": "2023-06-11",
+        "language": "German"
       },
       {
         "id": "1601978348447711233",
@@ -302,7 +324,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1597004142505263104",
-        "title": "Information, trust, and pandemic policy in democracies and autocracies",
+        "title": "Did autocracies really handle Covid better than democracies?",
         "date": "2022-11-27",
         "language": "English"
       }
@@ -322,7 +344,8 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1985285872296620063",
         "title": "Summarising ‘Bad Democracy Traps’",
         "date": "2025-11-03",
-        "language": "English"
+        "language": "English",
+        "kind": "paper-summary"
       },
       {
         "id": "1967573005074362380",
@@ -346,7 +369,8 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1878379229114487135",
         "title": "Ganghof on patterns of democracy",
         "date": "2025-01-12",
-        "language": "English"
+        "language": "English",
+        "kind": "book-summary"
       },
       {
         "id": "1847043471879688293",
@@ -358,11 +382,12 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1824464754271789096",
         "title": "Legislative overload and administrative capacity",
         "date": "2024-08-16",
-        "language": "German"
+        "language": "German",
+        "kind": "primer"
       },
       {
         "id": "1817808203201028576",
-        "title": "The knowledge economy and single-member district electoral systems",
+        "title": "Knowledge economy vs. first-past-the-post",
         "date": "2024-07-29",
         "language": "English"
       },
@@ -388,7 +413,8 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1736338887486640624",
         "title": "Veto players and policy stability",
         "date": "2023-12-17",
-        "language": "English"
+        "language": "English",
+        "kind": "primer"
       },
       {
         "id": "1713308082631999819",
@@ -400,25 +426,29 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1690469312090263553",
         "title": "Lijphart on majoritarian and consensus democracy",
         "date": "2023-08-12",
-        "language": "English"
+        "language": "English",
+        "kind": "book-summary"
       },
       {
         "id": "1610699608866406404",
         "title": "Lindvall on power sharing and the capacity for reform",
         "date": "2023-01-04",
-        "language": "English"
+        "language": "English",
+        "kind": "book-summary"
       },
       {
         "id": "1605515288107024385",
         "title": "Jacobs on long-term policymaking",
         "date": "2022-12-21",
-        "language": "English"
+        "language": "English",
+        "kind": "book-summary"
       },
       {
         "id": "1603519205650866178",
         "title": "Cox and McCubbins on institutions and policy outcomes",
         "date": "2022-12-15",
-        "language": "English"
+        "language": "English",
+        "kind": "paper-summary"
       }
     ]
   },
@@ -436,23 +466,25 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1980404444753010930",
         "title": "Compensation and the backlash against globalisation",
         "date": "2025-10-20",
-        "language": "English"
+        "language": "English",
+        "kind": "paper-summary"
       },
       {
         "id": "1974435991302947259",
         "title": "Besley et al. on growth experience and zero-sum attitudes",
         "date": "2025-10-04",
-        "language": "English"
+        "language": "English",
+        "kind": "paper-summary"
       },
       {
         "id": "1969363353869951018",
-        "title": "Wealth taxes and the political consequences of inequality",
+        "title": "Cochrane versus Blanchard on the political externalities of wealth taxes",
         "date": "2025-09-20",
         "language": "English"
       },
       {
         "id": "1860686521809985660",
-        "title": "Unions, political power, and inequality",
+        "title": "Korpi’s power resources theory and recent labour economics",
         "date": "2024-11-24",
         "language": "English"
       },
@@ -460,35 +492,40 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1847977851791810568",
         "title": "Ansell and Gingrich on education, insecurity, and political attitudes",
         "date": "2024-10-20",
-        "language": "English"
+        "language": "English",
+        "kind": "paper-summary"
       },
       {
         "id": "1845826285060174328",
         "title": "Acemoglu and Robinson on inequality and democratisation",
         "date": "2024-10-14",
-        "language": "English"
+        "language": "English",
+        "kind": "primer"
       },
       {
         "id": "1841572542953230615",
         "title": "Cavaillé on fairness and support for redistribution",
         "date": "2024-10-02",
-        "language": "English"
+        "language": "English",
+        "kind": "book-summary"
       },
       {
         "id": "1825935220031500339",
-        "title": "Why inequality does not always produce more redistribution",
+        "title": "The political economy of redistribution",
         "date": "2024-08-20",
-        "language": "English"
+        "language": "English",
+        "kind": "primer"
       },
       {
         "id": "1727280137681457169",
         "title": "Iversen and Rosenbluth on work and gender inequality",
         "date": "2023-11-22",
-        "language": "English"
+        "language": "English",
+        "kind": "book-summary"
       },
       {
         "id": "1714336624547381553",
-        "title": "Core voters and regressive policies in Germany’s coalition government",
+        "title": "Core voters and regressive policies of Germany’s progressive traffic-light coalition",
         "date": "2023-10-17",
         "language": "German"
       }
@@ -514,7 +551,8 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1805556455765930020",
         "title": "The foundations and limits of welfare economics",
         "date": "2024-06-25",
-        "language": "English"
+        "language": "English",
+        "kind": "primer"
       }
     ]
   },
@@ -524,7 +562,7 @@ export const threadGroups: ThreadGroup[] = [
     "items": [
       {
         "id": "2085095990592188549",
-        "title": "Lessons from an unsuccessful experiment on gender and climate policy",
+        "title": "What a failed experiment on gender and climate policy taught us",
         "date": "2026-08-05",
         "language": "English"
       },
@@ -536,25 +574,27 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1974069665338098008",
-        "title": "German reunification and the persistence of political differences",
+        "title": "Reflections on German reunification from a (historical) political economy perspective, part II",
         "date": "2025-10-03",
         "language": "English"
       },
       {
         "id": "1868658513440022580",
-        "title": "The best political science books I read in 2024",
+        "title": "My favourite books in 2024",
         "date": "2024-12-16",
-        "language": "English"
+        "language": "English",
+        "kind": "reading-list"
       },
       {
         "id": "1855018725935923425",
-        "title": "Trump’s trade war and US–China interdependence",
+        "title": "The political costs of Trump’s first trade war",
         "date": "2024-11-08",
-        "language": "English"
+        "language": "English",
+        "kind": "paper-summary"
       },
       {
         "id": "1841780267230384498",
-        "title": "German reunification and its lasting economic and political effects",
+        "title": "Reflections on German reunification from a (historical) political economy perspective, part I",
         "date": "2024-10-03",
         "language": "German"
       },
@@ -572,21 +612,24 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1758084907597693402",
-        "title": "The legacies of East Germany and the limits of simple comparisons",
+        "title": "The perils of spatial eyeball econometrics: The case of East-West differences in Germany",
         "date": "2024-02-15",
-        "language": "English"
+        "language": "English",
+        "kind": "reading-list"
       },
       {
         "id": "1751258861405630521",
         "title": "Reading list on the Shoah and the Nazi dictatorship, part II",
         "date": "2024-01-27",
-        "language": "English"
+        "language": "English",
+        "kind": "reading-list"
       },
       {
         "id": "1618941225968758784",
         "title": "Reading list on the Shoah and the Nazi dictatorship, part I",
         "date": "2023-01-27",
-        "language": "English"
+        "language": "English",
+        "kind": "reading-list"
       }
     ]
   }
