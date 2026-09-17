@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Footer } from "../components/Footer";
+import { FootnoteDisclosure } from "../components/FootnoteDisclosure";
 import { Header } from "../components/Header";
 import { Markdown } from "../components/Markdown";
 
@@ -16,6 +17,7 @@ export default function Page() {
         <article className="prose-page page-width">
           <Markdown file="file-drawer" />
         </article>
+        <FootnoteDisclosure />
       </main>
       <Footer />
     </div>

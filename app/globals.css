@@ -92,6 +92,14 @@ p { margin: 0 0 1.1em; }
 .file-drawer-project[open] .project-disclosure-vertical { display: none; }
 .file-drawer-project[open] > summary, .file-drawer-project > summary:hover, .file-drawer-project > summary:focus-visible { color: var(--blue); }
 .file-drawer-project[open] .project-disclosure-icon, .file-drawer-project > summary:hover .project-disclosure-icon { color: var(--blue); }
+.footnotes-disclosure > summary { display: grid; grid-template-columns: minmax(0, 1fr) 18px; align-items: center; gap: 18px; width: 100%; min-height: 44px; padding-block: 4px; list-style: none; color: var(--ink); font-size: inherit; }
+.footnotes-disclosure > summary::-webkit-details-marker { display: none; }
+.footnotes-disclosure > summary h2 { margin: 0; padding: 0; border: 0; font-size: 1rem; line-height: 1.4; }
+.footnotes-disclosure[open] > summary { margin-bottom: 12px; }
+.footnotes-disclosure[open] .project-disclosure-vertical { display: none; }
+.footnotes-disclosure[open] > summary, .footnotes-disclosure > summary:hover, .footnotes-disclosure > summary:focus-visible,
+.footnotes-disclosure[open] .project-disclosure-icon, .footnotes-disclosure > summary:hover .project-disclosure-icon { color: var(--blue); }
+.prose .footnotes li { scroll-margin-top: 28px; }
 .eyebrow { color: var(--muted); font-size: .8125rem; margin: 0 0 10px; }
 .text-link, .inline-links { font-size: .875rem; }
 .inline-links { display: flex; flex-wrap: wrap; gap: 8px 22px; }
