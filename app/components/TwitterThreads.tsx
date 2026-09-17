@@ -19,7 +19,7 @@ export function TwitterThreads() {
     <section className="writing-section twitter-threads" id="twitter-threads">
       <header className="writing-section-heading">
         <h2>Twitter threads</h2>
-        <p>I started these threads when I was revising for my “Comparative Government” exams as a way to get feedback on my revision notes. They include summaries of individual papers and books, primers on particular literatures, reading lists, and tentative interpretations of the literature’s implications for current debates. The threads are grouped by theme, with the most recent first.</p>
+        <p>I started these threads when I was revising for my “Comparative Government” exams as a way to get feedback on my revision notes. They include summaries of individual papers and books, primers on particular literatures, reading lists, and, of course, my own takes. The threads are grouped by theme, with the most recent first.</p>
       </header>
       <div className="thread-groups">
         {threadGroups.map((group) => (
