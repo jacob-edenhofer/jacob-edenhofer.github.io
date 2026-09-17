@@ -1,15 +1,41 @@
 import Image from "next/image";
-import { sitePath } from "../site.config.mjs";
+import { siteOrigin, sitePath } from "../site.config.mjs";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Markdown } from "./components/Markdown";
 import { researchByKind } from "./data/research";
+
+// Tells search engines whose website this is and which profiles belong to the same person.
+const person = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Jacob Edenhofer",
+  url: `${siteOrigin}${sitePath("/")}`,
+  image: `${siteOrigin}${sitePath("/jacob-edenhofer.webp")}`,
+  jobTitle: "DPhil candidate in Politics",
+  email: "mailto:jacob.edenhofer@nuffield.ox.ac.uk",
+  affiliation: [
+    { "@type": "Organization", name: "Nuffield College, University of Oxford", url: "https://www.nuffield.ox.ac.uk/" },
+    { "@type": "Organization", name: "Department of Politics and International Relations, University of Oxford", url: "https://www.politics.ox.ac.uk/" },
+  ],
+  knowsAbout: ["Comparative political economy", "Climate politics", "Populism", "Fiscal capacity"],
+  sameAs: [
+    "https://scholar.google.com/citations?user=59t8TxgAAAAJ",
+    "https://www.researchgate.net/profile/Jacob-Edenhofer",
+    "https://github.com/jacob-edenhofer",
+    "https://bsky.app/profile/jacobedenhofer.bsky.social",
+    "https://x.com/edenhofer_jacob",
+    "https://jacobedenhofer.substack.com/",
+    "https://www.linkedin.com/in/jacob-edenhofer-403614264/",
+  ],
+};
 
 export default function Home() {
   return (
     <div className="site-shell">
       <Header />
       <main id="main-content">
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(person).replaceAll("<", "\\u003c") }} />
         <section className="hero page-width" aria-labelledby="hero-title">
           <div className="hero-layout">
             <div className="hero-copy">

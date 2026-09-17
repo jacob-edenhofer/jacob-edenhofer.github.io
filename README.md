@@ -51,7 +51,7 @@ npm start
 
 The existing Sites preview remains available at its previous private address. The configuration in `.openai/hosting.json` records that preview's hosting identifier. GitHub Pages is the intended destination for subsequent publication.
 
-The website uses `https://jacob-edenhofer.github.io/`, configured in `site.config.mjs`, for local links, assets, and social-preview images. It retains the draft instruction asking search engines not to index it. This instruction does not restrict access; anyone with the public GitHub Pages address can open the website. Remove the `robots` setting in `app/layout.tsx` when the website should appear in search results.
+The website uses `https://jacob-edenhofer.github.io/`, configured in `site.config.mjs`, for local links, assets, and social-preview images. Search engines may index it: `app/robots.ts` and `app/sitemap.ts` generate `robots.txt` and `sitemap.xml` during the build, and the homepage carries Person structured data. Only the old `/publications/` redirect page keeps a `noindex` instruction.
 
 ## Publish using GitHub Pages
 

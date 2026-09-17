@@ -11,9 +11,8 @@ const socialImage = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteOrigin),
-  title: "Jacob Edenhofer",
+  title: "Jacob Edenhofer · University of Oxford",
   description: "DPhil candidate in Politics at the University of Oxford, with research interests in comparative political economy and climate politics.",
-  robots: { index: false, follow: false },
   icons: {
     icon: sitePath("/favicon.svg?v=20260916"),
     shortcut: sitePath("/favicon.svg?v=20260916"),
