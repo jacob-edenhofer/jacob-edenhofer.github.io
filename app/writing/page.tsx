@@ -39,7 +39,7 @@ const sections = [
   {
     id: "essays-reviews",
     title: "Essays and reviews",
-    intro: "These essays discuss Germany’s climate legislation, climate policy amid geopolitical tensions, and the importance of democracy for climate action. The reviews examine corporate power in democracies and Rodrik’s proposals to strengthen economic security through good jobs.",
+    intro: "These essays discuss Germany’s climate legislation, climate policy amid geopolitical tensions, and the importance of democracy for climate action. The reviews examine corporate power in democracies and Rodrik’s productivist paradigm.",
     items: [...reviewsAndEssays, ...publicAffairsWriting],
   },
   {

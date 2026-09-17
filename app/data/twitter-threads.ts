@@ -289,7 +289,8 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1716052321820455017",
         "title": "Ignorant voters, rational electorates?",
         "date": "2023-10-22",
-        "language": "English"
+        "language": "English",
+        "kind": "primer"
       }
     ]
   },
@@ -336,7 +337,7 @@ export const threadGroups: ThreadGroup[] = [
     "items": [
       {
         "id": "1987597300131147889",
-        "title": "Political scandals and the clarity of accountability",
+        "title": "Political scandals and the clarity of responsibility",
         "date": "2025-11-09",
         "language": "English"
       },
@@ -387,7 +388,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1817808203201028576",
-        "title": "Knowledge economy vs. first-past-the-post",
+        "title": "The economic geography of the knowledge economy vs. the political geography of first-past-the-post",
         "date": "2024-07-29",
         "language": "English"
       },
@@ -405,7 +406,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1770204231938568628",
-        "title": "The war in Ukraine and strains within Germany’s traffic-light coalition",
+        "title": "The war in Ukraine and the fraying of Germany’s traffic-light coalition",
         "date": "2024-03-19",
         "language": "English"
       },
@@ -484,7 +485,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "1860686521809985660",
-        "title": "Korpi’s power resources theory and recent labour economics",
+        "title": "Korpi’s power resources theory and the newer labour economics literature",
         "date": "2024-11-24",
         "language": "English"
       },
@@ -568,7 +569,7 @@ export const threadGroups: ThreadGroup[] = [
       },
       {
         "id": "2069464875634405497",
-        "title": "Brexit at ten and the politics of regional decline",
+        "title": "Brexit at ten: Reflections on the politics of regional decline",
         "date": "2026-06-23",
         "language": "English"
       },
