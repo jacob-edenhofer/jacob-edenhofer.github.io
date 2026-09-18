@@ -137,7 +137,7 @@ export const democracyAndAdvice: WritingItem[] = [
     outlet: "Friedrich Naumann Foundation, Europe Workshop",
     date: "25 November 2025",
     href: "https://www.dropbox.com/scl/fi/v3nes994lb0ml0pwwu6xs/RWP_Naumann_Stiftung_EdenhoferNov2025_long.pdf?rlkey=d9e5dvibsc0fif4d3kd1809j6&st=gdul11fl&dl=0",
-    description: "Across 85 slides, I offer a synthesis and my interpretation of the literature on the causes and consequences of right-wing populism and assess potential countermeasures.",
+    description: "In this fairly comprehensive slide deck (more than 80 slides), I synthesise the literature on the causes and consequences of right-wing populism and assess potential countermeasures.",
   },
   {
     title: "Does fairness matter for the political efficacy of compensation?",
