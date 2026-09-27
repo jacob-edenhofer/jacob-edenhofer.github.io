@@ -24,6 +24,12 @@ export const threadGroups: ThreadGroup[] = [
     "title": "Climate politics",
     "items": [
       {
+        "id": "2103857987601457608",
+        "title": "Meta analyses and the determinants of support for climate policy",
+        "date": "2026-09-26",
+        "language": "English"
+      },
+      {
         "id": "2063277710617514358",
         "title": "Degrowth and the erosion of support for climate policy",
         "date": "2026-06-06",
