@@ -424,6 +424,13 @@ export const threadGroups: ThreadGroup[] = [
         "kind": "primer"
       },
       {
+        "id": "1735625939642425361",
+        "title": "Why political parties matter for democracy",
+        "date": "2023-12-15",
+        "language": "English",
+        "kind": "primer"
+      },
+      {
         "id": "1713308082631999819",
         "title": "Clarity of responsibility under external constraints",
         "date": "2023-10-14",
