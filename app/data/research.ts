@@ -48,7 +48,7 @@ export const research: ResearchItem[] = [
     kind: "publication",
     status: "Forthcoming",
     venue: "Oxford Review of Economic Policy",
-    year: "2026",
+    year: "2027",
     programmes: ["climate"],
     selected: true,
     summary: "Rich democracies have cut emissions unevenly across countries and sectors. We argue that adopted climate policy endures only if the incentives behind it last long enough for firms to adjust. Whether these incentives persist, recur or reverse determines which of three trajectories a country follows: quiet accumulation, punctuated accumulation or policy cycling.",
