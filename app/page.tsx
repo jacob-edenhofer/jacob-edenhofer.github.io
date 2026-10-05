@@ -76,13 +76,13 @@ export default function Home() {
             <h2 id="recent-publications-title">Recent publications</h2>
             <a className="text-link" href={sitePath("/research/")}>All research</a>
           </header>
-          {researchByKind.publications.slice(0, 3).map((paper) => (
+          {researchByKind.publications.slice(0, 4).map((paper) => (
             <article className="paper-entry" key={paper.slug}>
               <h3><a href={sitePath(`/research/#${paper.slug}`)}>{paper.title}</a></h3>
               <p className="paper-authors">{paper.authors}</p>
               <p className="paper-meta">{[paper.venue, paper.year, paper.status].join(" · ")}</p>
               {paper.links.filter((link) => link.label === "Paper").map((link) => (
-                <div className="paper-links" key={link.href}><a href={link.href}>{link.label}</a></div>
+                <div className="paper-links" key={link.href}><a href={sitePath(link.href)}>{link.label}</a></div>
               ))}
             </article>
           ))}
