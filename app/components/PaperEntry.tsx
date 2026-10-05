@@ -1,4 +1,5 @@
 import type { ResearchItem } from "../data/research";
+import { sitePath } from "../../site.config.mjs";
 
 export function PaperEntry({ paper }: { paper: ResearchItem }) {
   const metadata = [
@@ -30,7 +31,7 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
         {primaryLinks.length > 0 && (
           <div className="paper-links">
             {primaryLinks.map((link) => (
-              <a href={link.href} key={link.href}>{link.label}</a>
+              <a href={sitePath(link.href)} key={link.href}>{link.label}</a>
             ))}
           </div>
         )}
@@ -41,7 +42,7 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
                 <dt>{group.title}</dt>
                 <dd className="paper-links">
                   {group.links.map((link) => (
-                    <a href={link.href} key={link.href}>{link.label}</a>
+                    <a href={sitePath(link.href)} key={link.href}>{link.label}</a>
                   ))}
                 </dd>
               </div>
