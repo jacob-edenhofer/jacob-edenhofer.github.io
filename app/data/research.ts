@@ -155,6 +155,7 @@ export const research: ResearchItem[] = [
       { label: "Paper", href: "https://wrap.warwick.ac.uk/id/eprint/202321/", category: "research" },
       { label: "Interactive results", href: "https://brexitcost.org/", category: "research" },
       { label: "UKICE", href: "https://ukandeu.ac.uk/levelling-up-by-levelling-down-the-economic-and-political-costs-of-brexit/", category: "authors" },
+      { label: "UKICE — ‘From Local to National’", href: "https://ukandeu.ac.uk/from-local-to-national-austerity-immigration-and-support-for-ukip/", category: "authors" },
       { label: "Warwick summary", href: "https://warwick.ac.uk/fac/soc/economics/news/2026/6/new_research_maps_the_regional_cost_of_brexit_uk_levelled_down_not_levelled_up/", category: "coverage" },
       { label: "Financial Times", href: "https://www.ft.com/content/9edec5f5-c3aa-4dfc-8ab4-f7d4ef559a7a", category: "coverage" },
       { label: "FT comment", href: "https://www.ft.com/content/c338cee8-3f61-4080-b4c7-a8817fd6cc8e", category: "coverage" },
