@@ -35,7 +35,7 @@ const statusGroups = [
 const themes = [
   {
     id: "theme-climate",
-    title: "Climate Politics",
+    title: "Climate politics",
     description: "My DPhil manuscript and related papers examine when electoral incentives for climate action produce stringent policies that remain in place despite fluctuations in public attention and government turnover. They investigate how investment in cleaner production influences firms’ support for maintaining climate policy, how compensation affects voters’ willingness to accept its costs, and how climate laws and advisory bodies affect the climate policymaking process.",
     papers: researchByProgramme.climate,
   },
@@ -46,15 +46,9 @@ const themes = [
     papers: researchByProgramme.populism,
   },
   {
-    id: "theme-state-capacity",
-    title: "State capacity",
-    description: "These papers examine how limited information constrains governments’ ability to target taxes and compensation, and when conflict between firms generates support for investment in fiscal capacity.",
-    papers: researchByProgramme.stateCapacity,
-  },
-  {
     id: "theme-cpe",
-    title: "Other comparative political economy",
-    description: "These projects examine how inflation affects demand for redistribution, how existing taxes and transfers influence the perceived fairness of climate policy, and when parties protect their core voters or fail to do so by chasing swing voters.",
+    title: "Comparative political economy",
+    description: "These projects examine how inflation affects preferences for redistribution, whether parties target core or swing voters, and how the progressivity of the background tax-and-transfer system moderates judgements about the fairness of climate policy. Two further papers study state capacity, specifically how limited information constrains governments’ ability to target taxes and compensation, and when conflict between firms generates support for investment in fiscal capacity in the age of AI.",
     papers: researchByProgramme.cpe,
   },
   {

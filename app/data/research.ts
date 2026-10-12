@@ -1,4 +1,4 @@
-export type Programme = "climate" | "state-capacity" | "populism" | "cpe" | "democracy";
+export type Programme = "climate" | "populism" | "cpe" | "democracy";
 
 export type ResearchKind =
   | "manuscript"
@@ -169,7 +169,7 @@ export const research: ResearchItem[] = [
     status: "Working paper",
     venue: "CEPR Discussion Paper No. 18773",
     year: "2024",
-    programmes: ["state-capacity"],
+    programmes: ["cpe"],
     summary: "We examine how limits on the information that governments can gather, process and use constrain fiscal responses to crises.",
     abstract: "Formal conceptions of state capacity have mostly focused on indirect measures of state capacity—by, for instance, using the state’s fiscal or extractive capacity as a proxy for its overall capacity. Yet, this input or extractive view of state capacity falls short, especially since cross-country empirical evidence suggests that similar levels of fiscal capacity, measured by tax revenues as a percentage of GDP, can produce starkly different outputs—both in classic economic terms and in broader terms that citizens would recognise as desirable outcomes, including quality of life, health, security, equality of opportunity, and inter-generational mobility. This paper argues that a central step towards addressing these shortcomings of the conventional view is to account for a crucial and largely ignored boundary of the state or dimension of state capacity: its capacity to gather, process, and deploy information in its conduct of fiscal policy. Specifically, we study how the presence or lack of such informational capacity constrains governments in responding to crises, such as the recent energy price shock. Our framework provides the analytical toolkit to examine how the informational boundary of the state shapes the incentives for policymakers to resort to untargeted and/or distortionary policy instruments, as opposed to targeted and non-distortionary ones, in responding to crises. The policy response to the energy crisis following the invasion of Ukraine provides the empirical context upon which we bring this theoretical framework to bear on data, though the latter can be straightforwardly extended to other recent crises.",
     links: [
@@ -186,7 +186,7 @@ export const research: ResearchItem[] = [
     venue: "SSRN Scholarly Paper No. 7368958",
     year: "2026",
     date: "28 August 2026",
-    programmes: ["state-capacity"],
+    programmes: ["cpe"],
     summary: "We examine when conflict between conventional firms and AI firms creates support for investment in the legal and administrative capacity to tax rents from artificial intelligence.",
     abstract: "Artificial intelligence may reduce labour’s share of income and weaken revenues from taxes on labour. Taxing rents from AI requires legal and administrative capacity to identify and value those returns. In the absence of this capacity, governments may use broad taxes on capital that impose a substantial burden on conventional firms. More targeted taxation gives those firms a reason to support investment in fiscal capacity. We develop a political economy model to examine when this support leads to investment as AI firms gain political power. The analysis considers the effects of inequality, declining revenues from taxes on labour, the speed of the transition and the relative political power of conventional and AI firms.",
     links: [{ label: "Paper", href: "https://doi.org/10.2139/ssrn.7368958", category: "research" }],
@@ -281,7 +281,6 @@ export const researchByKind = {
 
 export const researchByProgramme = {
   climate: [dphilManuscript, ...newestFirst(research.filter((paper) => paper.programmes.includes("climate")))],
-  stateCapacity: newestFirst(research.filter((paper) => paper.programmes.includes("state-capacity"))),
   populism: newestFirst(research.filter((paper) => paper.programmes.includes("populism"))),
   cpe: newestFirst(research.filter((paper) => paper.programmes.includes("cpe"))),
   democracy: newestFirst(research.filter((paper) => paper.programmes.includes("democracy"))),
