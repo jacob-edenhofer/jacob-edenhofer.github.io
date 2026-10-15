@@ -48,7 +48,7 @@ const themes = [
   {
     id: "theme-cpe",
     title: "Comparative political economy",
-    description: "These projects examine how inflation affects preferences for redistribution, whether parties target core or swing voters, and how the progressivity of the background tax-and-transfer system moderates judgements about the fairness of climate policy. Two further papers study state capacity, specifically how limited information constrains governments’ ability to target taxes and compensation, and when conflict between firms generates support for investment in fiscal capacity in the age of AI.",
+    description: "These projects examine how inflation affects preferences for redistribution, whether parties target core or swing voters, and how the progressivity of the background tax-and-transfer system moderates judgements about the fairness of (climate) policy. Two further papers study state capacity, specifically how limited information constrains governments’ ability to target taxes and compensation, and when conflict between firms generates support for investment in fiscal capacity in the age of AI.",
     papers: researchByProgramme.cpe,
   },
   {
