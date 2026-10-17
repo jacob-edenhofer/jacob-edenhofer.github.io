@@ -50,6 +50,7 @@ export default function Home() {
               </address>
               <nav className="hero-academic" aria-label="Academic profiles and CV">
                 <a href="https://scholar.google.com/citations?user=59t8TxgAAAAJ">Google Scholar</a>
+                <a href="https://www.researchgate.net/profile/Jacob-Edenhofer">ResearchGate</a>
                 <a href={sitePath("/Jacob_Edenhofer_CV.pdf")}>CV</a>
               </nav>
               <nav className="hero-social" aria-label="Public activity">
