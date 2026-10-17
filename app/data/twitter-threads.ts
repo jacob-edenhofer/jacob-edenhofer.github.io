@@ -93,6 +93,12 @@ export const threadGroups: ThreadGroup[] = [
         "kind": "primer"
       },
       {
+        "id": "1767875831836164203",
+        "title": "The Inflation Reduction Act and the institutional conditions for green industrial policy",
+        "date": "2024-03-13",
+        "language": "German"
+      },
+      {
         "id": "1760635907995017502",
         "title": "The geopolitics of the green transition",
         "date": "2024-02-22",
@@ -109,6 +115,12 @@ export const threadGroups: ThreadGroup[] = [
         "title": "Reforming Germany’s climate law",
         "date": "2023-11-08",
         "language": "German"
+      },
+      {
+        "id": "1705499541376479599",
+        "title": "Sunak’s net zero U-turn and the electoral geography of climate policy",
+        "date": "2023-09-23",
+        "language": "English"
       },
       {
         "id": "1703329859324330241",
@@ -311,6 +323,12 @@ export const threadGroups: ThreadGroup[] = [
         "language": "English"
       },
       {
+        "id": "1796829006735487291",
+        "title": "Corporatism, Nord Stream 2, and pro-autocratic lobbying in Germany",
+        "date": "2024-06-01",
+        "language": "German"
+      },
+      {
         "id": "1757539820140696055",
         "title": "An overview of the political economy of autocracy",
         "date": "2024-02-13",
@@ -393,6 +411,13 @@ export const threadGroups: ThreadGroup[] = [
         "kind": "primer"
       },
       {
+        "id": "1824191042318635033",
+        "title": "Classic readings on legislatures and the US Congress",
+        "date": "2024-08-15",
+        "language": "English",
+        "kind": "reading-list"
+      },
+      {
         "id": "1817808203201028576",
         "title": "The economic geography of the knowledge economy vs. the political geography of first-past-the-post",
         "date": "2024-07-29",
@@ -434,6 +459,18 @@ export const threadGroups: ThreadGroup[] = [
         "id": "1713308082631999819",
         "title": "Clarity of responsibility under external constraints",
         "date": "2023-10-14",
+        "language": "English"
+      },
+      {
+        "id": "1707786518356426931",
+        "title": "Corporatism and Germany’s low informational capacity",
+        "date": "2023-09-29",
+        "language": "English"
+      },
+      {
+        "id": "1693542117417562422",
+        "title": "Extending the Besley–Persson model of state capacity",
+        "date": "2023-08-21",
         "language": "English"
       },
       {
@@ -529,6 +566,13 @@ export const threadGroups: ThreadGroup[] = [
         "date": "2024-08-20",
         "language": "English",
         "kind": "primer"
+      },
+      {
+        "id": "1744341648090239364",
+        "title": "Readings on the economics of inequality",
+        "date": "2024-01-08",
+        "language": "English",
+        "kind": "reading-list"
       },
       {
         "id": "1727280137681457169",
@@ -636,6 +680,26 @@ export const threadGroups: ThreadGroup[] = [
         "title": "Reading list on the Shoah and the Nazi dictatorship, part II",
         "date": "2024-01-27",
         "language": "English",
+        "kind": "reading-list"
+      },
+      {
+        "id": "1717990307042570678",
+        "title": "Corden on trade policy and the case for industrial policy",
+        "date": "2023-10-27",
+        "language": "English"
+      },
+      {
+        "id": "1717124211800469766",
+        "title": "The political economy of financial crises",
+        "date": "2023-10-25",
+        "language": "English",
+        "kind": "reading-list"
+      },
+      {
+        "id": "1698980476306813160",
+        "title": "Computing power and the socialist calculation debate",
+        "date": "2023-09-05",
+        "language": "German",
         "kind": "reading-list"
       },
       {
