@@ -24,6 +24,12 @@ export const threadGroups: ThreadGroup[] = [
     "title": "Climate politics",
     "items": [
       {
+        "id": "2111876480749969806",
+        "title": "Does corporatism help or hinder climate policy?",
+        "date": "2026-10-18",
+        "language": "English"
+      },
+      {
         "id": "2103857987601457608",
         "title": "Meta analyses and the determinants of support for climate policy",
         "date": "2026-09-26",
