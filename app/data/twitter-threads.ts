@@ -30,6 +30,12 @@ export const threadGroups: ThreadGroup[] = [
         "language": "English"
       },
       {
+        "id": "2111837890145603649",
+        "title": "Did corporatism help phase out coal in Germany?",
+        "date": "2026-10-18",
+        "language": "English"
+      },
+      {
         "id": "2103857987601457608",
         "title": "Meta analyses and the determinants of support for climate policy",
         "date": "2026-09-26",
