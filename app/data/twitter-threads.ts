@@ -316,6 +316,13 @@ export const threadGroups: ThreadGroup[] = [
         "language": "English"
       },
       {
+        "id": "1736870324946252250",
+        "title": "How to conceptualise and measure democracy",
+        "date": "2023-12-18",
+        "language": "English",
+        "kind": "primer"
+      },
+      {
         "id": "1716052321820455017",
         "title": "Ignorant voters, rational electorates?",
         "date": "2023-10-22",
