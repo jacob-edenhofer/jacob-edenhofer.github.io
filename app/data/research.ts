@@ -189,7 +189,10 @@ export const research: ResearchItem[] = [
     programmes: ["cpe"],
     summary: "We examine when conflict between conventional firms and AI firms creates support for investment in the legal and administrative capacity to tax rents from artificial intelligence.",
     abstract: "Artificial intelligence may reduce labour’s share of income and weaken revenues from taxes on labour. Taxing rents from AI requires legal and administrative capacity to identify and value those returns. In the absence of this capacity, governments may use broad taxes on capital that impose a substantial burden on conventional firms. More targeted taxation gives those firms a reason to support investment in fiscal capacity. We develop a political economy model to examine when this support leads to investment as AI firms gain political power. The analysis considers the effects of inequality, declining revenues from taxes on labour, the speed of the transition and the relative political power of conventional and AI firms.",
-    links: [{ label: "Paper", href: "https://doi.org/10.2139/ssrn.7368958", category: "research" }],
+    links: [
+      { label: "SSRN paper", href: "https://doi.org/10.2139/ssrn.7368958", category: "research" },
+      { label: "CTS working paper", href: "https://www.cts-oxford.org/working-papers/#wp-2026-05", category: "research" },
+    ],
   },
   {
     slug: "inflation-redistribution",
