@@ -12,4 +12,4 @@ I co-convene the Comparative Political Economy Seminar at Nuffield College. The 
 
 ## Peer review
 
-I have reviewed manuscripts for *The Journal of Politics* and the *Oxford Review of Economic Policy*.
+I have reviewed manuscripts for *Comparative Political Studies*, *The Journal of Politics*, and the *Oxford Review of Economic Policy*.
