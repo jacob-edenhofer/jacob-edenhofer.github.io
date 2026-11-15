@@ -19,6 +19,14 @@ Each lecture has two parts, though these are not always presented sequentially. 
 - [2026 GitHub repository](https://github.com/jacob-edenhofer/PolEcon-Oxford2026) — course materials and simulations
 - [2025 archive](https://github.com/jacob-edenhofer/PolEcon-Oxford2025) — materials from the previous course
 
+## Right-wing populism
+
+Friedrich Naumann Foundation · Europe Workshop · November 2025
+
+I prepared this slide deck for the Europe Workshop of the Friedrich Naumann Foundation. Its 85 slides synthesise the literature on the causes and consequences of right-wing populism and assess potential countermeasures.
+
+- [Slides — Towards a more nuanced understanding of right-wing populism](/Right_Wing_Populism_Naumann_2025.pdf) — causes, consequences, and countermeasures
+
 ## Climate policy
 
 I worked as a teaching assistant for [Christian Flachsland](https://www.hertie-school.org/en/who-we-are/profile/person/flachsland) (Hertie School) on *Advanced Climate Policy* and *Policy Process — Climate Policy*. I made a substantial contribution to preparing and revising the lecture slides.

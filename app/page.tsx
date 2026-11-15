@@ -58,6 +58,7 @@ export default function Home() {
                 <a href="https://bsky.app/profile/jacobedenhofer.bsky.social">Bluesky</a>
                 <a href="https://jacobedenhofer.substack.com/">Substack</a>
                 <a href="https://github.com/jacob-edenhofer">GitHub</a>
+                <a href="https://www.linkedin.com/in/jacob-edenhofer-403614264/">LinkedIn</a>
               </nav>
             </div>
             <figure className="hero-portrait">
