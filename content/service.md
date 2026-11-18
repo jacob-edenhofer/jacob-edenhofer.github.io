@@ -1,6 +1,6 @@
 # Professional service
 
-I contribute to the broader academic community via scientific assessment, seminar organisation, and peer review.
+I contribute to the broader academic community via scientific assessment, seminar organisation, discussions of papers, and peer review.
 
 ## IPCC Seventh Assessment Report
 
@@ -9,6 +9,12 @@ I am a Contributing Author to the [Intergovernmental Panel on Climate Change’s
 ## Nuffield Comparative Political Economy Seminar
 
 I co-convene the Comparative Political Economy Seminar at Nuffield College. The seminar gives DPhil students an opportunity to present work in progress, which faculty members discuss and comment upon.
+
+## Discussant
+
+I have discussed the following papers at seminars and workshops.
+
+- [Slides — Discussion of Felicia Riethmüller, “From identity to competition?”](/Riethmuller_Discussion_2026.pdf) — Research in Progress Seminar, DPIR, Oxford, November 2026
 
 ## Peer review
 
